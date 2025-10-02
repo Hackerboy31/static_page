@@ -38,7 +38,7 @@ body {
 }
 
 .logo h2 {
-  font-size: 1.2rem;
+  font-size: 15px;
   font-weight: 700;
   line-height: 1;
 }
@@ -59,6 +59,7 @@ body {
   color: #000;
   font-weight: 500;
   transition: color 0.3s;
+  font-size: 15px;
 }
 
 .nav-links a:hover {
@@ -66,7 +67,7 @@ body {
 }
 
 .btn {
-  padding: 10px 20px;
+  padding: 14px 22px;
   border-radius: 30px;
   font-weight: 600;
   text-decoration: none;
@@ -84,7 +85,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 3rem;
+  gap: 2rem;
   padding: 4rem 0;
 }
 
@@ -94,7 +95,7 @@ body {
 }
 
 .hero-text h1 {
-  font-size: 2.8rem;
+  font-size: 64px;
   font-weight: 700;
   margin-bottom: 1.5rem;
   line-height: 1.3;
@@ -119,12 +120,12 @@ body {
   bottom: -5px; /* adjust underline distance */
   width: 300px;
   height: 15px;
-  background: url('wavy.png') no-repeat center;
+  background: url('./assets/wavy.png') no-repeat center;
   background-size: contain;
 }
 
 .hero-text p {
-  font-size: 1rem;
+  font-size: 16px;
   color: #333;
   margin-bottom: 2rem;
   line-height: 1.6;
@@ -133,6 +134,7 @@ body {
 .hero-buttons {
   display: flex;
   gap: 1rem;
+  font-size: 18px;
 }
 
 .btn-outline {
@@ -165,8 +167,8 @@ body {
 .hero-image img {
   left: 90px;
   position: relative;
-  width: 400px;
-  height: 550px;
+  width: 503px;
+  height: 723px;
   mix-blend-mode: multiply;
   /* border-radius: 50%; */
   /* opacity: 0.6; */
@@ -197,13 +199,17 @@ body {
 /* Floating Rating Card */
 .rating-card {
   position: absolute;
-  top: 300px;
-  right: 210px;
+  height: 117px;
+  width: 350px;
+  top: 380px;
+  right: 500px;
   left: 0px;
   background: #fff;
-  padding: 12px 18px;
-  border-radius: 12px;
+  padding: 15px 20px;
+  border-radius: 20px;
   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
   text-align: left;
 }
 
@@ -219,29 +225,31 @@ body {
 }
 
 .rating-card h3 {
-  font-size:40px;
+  font-size: 60px;
   color: #1cb098;
   font-weight: 700;
 }
 
 .rating-card p {
-  font-size: 24px;
+  font-size: 15px;
   color: #333;
 }
 
 /* Floating Resume Card */
 .resume-card {
   position: absolute;
-  top: 350px;
+  height: 133px;
+  width: 270px;
+  top: 480px;
   /* left: px; */
   right: -70px;
   background: #fff;
-  padding: 12px 18px;
+  padding: 15px 20px;
   border-radius: 12px;
   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
   display: flex;
     align-items: center;
-  gap: 10px;
+  gap: 20px;
 }
 
 .resume-card h3 {
@@ -251,7 +259,7 @@ body {
 }
 
 .resume-card p {
-  font-size: 17px;
+  font-size: 15px;
   color: #333;
   line-height: 1.3;
 }
